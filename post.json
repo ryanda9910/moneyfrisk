@@ -1,0 +1,7 @@
+{
+  "repo": "https://github.com/ryanda9910/moneyfrisk",
+  "card": "https://raw.githubusercontent.com/ryanda9910/moneyfrisk/main/assets/social-card.png",
+  "alt": "Terminal showing moneyfrisk frisking a git diff of a checkout total: it flags total accumulated in a JS number/float (high), price*qty in floats (high), and tax = total*0.1 rounded late (escalated), with the line 0.1 + 0.2 = 0.30000000000000004 and 1 call needed before this is done.",
+  "threads": "Bug paling tua di software: simpan uang sebagai float. 0.1 + 0.2 = 0.30000000000000004. Akumulasi total keranjang di number, kali harga sama tarif pajak, parse '19.99' pakai parseFloat, dan sennya melenceng sampai invoice gak balance.\n\nmoneyfrisk itu skill Claude Code yang menggeledah baris uang di diff-nya sendiri sebelum bilang selesai. Linter cuma lihat price: number; agent yang tahu price itu duit.\n\nhttps://github.com/ryanda9910/moneyfrisk",
+  "bluesky": "The oldest silent bug in software: money on a float. 0.1 + 0.2 is 0.30000000000000004. moneyfrisk is a Claude Code skill that frisks the money lines in its own diff for float currency and won't say done while cents are drifting."
+}
